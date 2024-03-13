@@ -4,3 +4,10 @@
   padding: 0; /* sets paddings (top, bottom, left, right) to 0 */
   box-sizing: border-box; /*sets the box-sizing to border-box */
 }
+
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif; /* sets the default font for the body of the website to Arial. If Arial is not available, it sets to Helvetica. If Helvetica is not available, it sets to sans-serif */
+  color: #383838; /* sets the default text color to #383838 */
+  background-color: #f8f8f8; /* sets the default background color of the body of the website to a smoke white (#F8F8F8) */
+}
