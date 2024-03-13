@@ -22,3 +22,13 @@ body {
 img {
   max-width: 100%; /* sets the max-width of the images to 100%. In this way they can't be bigger than container width and they are responsive. So, they will look good regardless of the screen size.*/
 }
+
+/* Navbar */
+.navbar {
+  position: fixed;  /* sets the position of navbar to fixed */
+  font-size: 1.7rem; /* sets the text-size of navbar to 1.7rem */
+  font-weight: 200;  /* sets the font-weight to 200 */
+  width: 100%; /*sets the navbar width to cover the full width of the viewport */
+  background-color: #404040; /* sets the default background color of the navbar to the dark-grey (#404040) */
+  color: #f8f8f8; /* sets the default text color of nav to #f8f8f8 */
+}
