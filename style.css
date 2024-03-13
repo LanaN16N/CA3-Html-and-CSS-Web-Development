@@ -11,3 +11,9 @@ body {
   color: #383838; /* sets the default text color to #383838 */
   background-color: #f8f8f8; /* sets the default background color of the body of the website to a smoke white (#F8F8F8) */
 }
+
+/* Header content*/
+.header-content {
+  background-color: #ffffff; /* sets the default background color of the header to the white */
+  text-align: center; /* sets the text-align of the header content to the center */
+}
