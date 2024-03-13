@@ -10,6 +10,10 @@ body {
   font-family: Arial, Helvetica, sans-serif; /* sets the default font for the body of the website to Arial. If Arial is not available, it sets to Helvetica. If Helvetica is not available, it sets to sans-serif */
   color: #383838; /* sets the default text color to #383838 */
   background-color: #f8f8f8; /* sets the default background color of the body of the website to a smoke white (#F8F8F8) */
+  padding-top: 1rem; /* sets the top padding to 1rem. Using relative units such as em and rem, instead of px (pixels), is strongly recommended today, as a large percentage of users are now on tablets and mobile devices. The problem with pixels is that they remain the same regardless of the screen size. 1rem = 16px */
+  padding-right: 2rem; /* sets the right padding to 2rem. 2 rem is equivalent to 32 pixels, as 1rem = 16px, so 2rem = 32px. */
+  padding-bottom: 0.5rem; /* sets the bottom padding to 0.5rem. 0.5rem = 8px */
+  padding-left: 2rem; /* sets the left padding to 2rem. 2rem = 32px */
 }
 
 /* Header content*/
