@@ -32,3 +32,10 @@ img {
   background-color: #404040; /* sets the default background color of the navbar to the dark-grey (#404040) */
   color: #f8f8f8; /* sets the default text color of nav to #f8f8f8 */
 }
+
+/* id #cont_old - photo of the Old Town - index.html */
+#cont_old {
+  padding-left: 2rem; /* sets the left padding of image with id: #count_old to 2rem (32px) */
+  margin-top: 2rem; /* sets the top margin of image with id: #count_old to 2rem (32px) */
+  margin-bottom: 2rem; /* sets the bottom margin of image with id: #count_old to 2rem (32px) */
+}
