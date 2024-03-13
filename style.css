@@ -17,3 +17,8 @@ body {
   background-color: #ffffff; /* sets the default background color of the header to the white */
   text-align: center; /* sets the text-align of the header content to the center */
 }
+
+/* Images */
+img {
+  max-width: 100%; /* sets the max-width of the images to 100%. In this way they can't be bigger than container width and they are responsive. So, they will look good regardless of the screen size.*/
+}
