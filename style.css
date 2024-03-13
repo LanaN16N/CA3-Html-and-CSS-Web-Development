@@ -47,3 +47,10 @@ img {
   margin-bottom: 3rem; /* sets the bottom margin of the of a content class to 3rem (48px) */
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.4); /* sets the shadow of a content class */
 }
+
+/* Footer */
+footer {
+  background-color: #484848; /* sets the background color of footer to dark-grey (#484848) */
+  color: #ffffff; /* sets the text color to #FFFFFF */
+  text-align: center; /* sets the text-align of the footer to the center */
+}
