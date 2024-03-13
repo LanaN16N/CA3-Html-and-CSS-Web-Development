@@ -39,3 +39,11 @@ img {
   margin-top: 2rem; /* sets the top margin of image with id: #count_old to 2rem (32px) */
   margin-bottom: 2rem; /* sets the bottom margin of image with id: #count_old to 2rem (32px) */
 }
+
+/* Content styling */
+.content {
+  background-color: #fff; /*sets the background color of a content class to white(#FFF) */
+  padding: 2.5rem; /* sets paddings (top, bottom, left, right) of content class to 2.5rem */
+  margin-bottom: 3rem; /* sets the bottom margin of the of a content class to 3rem (48px) */
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.4); /* sets the shadow of a content class */
+}
