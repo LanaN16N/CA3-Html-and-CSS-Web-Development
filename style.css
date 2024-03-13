@@ -1,0 +1,6 @@
+/* Global/universal selector. Style is applied to each element on this website. */
+* {
+  margin: 0; /* sets margins (top, bottom, left, right) to 0 */
+  padding: 0; /* sets paddings (top, bottom, left, right) to 0 */
+  box-sizing: border-box; /*sets the box-sizing to border-box */
+}
