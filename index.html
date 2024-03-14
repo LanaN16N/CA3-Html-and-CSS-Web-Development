@@ -6,82 +6,24 @@
     <!-- Makes sure it looks good on phones and it has possibility of zooming -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title of the webpage -->
-    <title>Home</title>
+    <title>Index</title>
     <!-- Bootstrap CSS for styling, used this code: https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css from here: https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <!-- External CSS file for styling -->
     <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
-    <!-- Header section with a banner image -->
-    <header>
-      <div class="header-content">
-        <!-- Banner image: Logo of Varazdin, edited in Canva -->
-        <div class="banner">
-          <img src="./img/banner.jpg" alt="Logo of the Varazdin" style="width:40%; height:auto; max-height:500px;">
-        </div>
-      </div>
-    </header>
-    <!-- Navigation bar, Bootstrap. Used this to learn how to do it: link: https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse -->
-    <nav class="navbar navbar-expand-md navbar-dark">
-      <!-- Toggler button, extremely important for responsive design of navbar -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#resp-Nav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Navbar links -->
-      <!-- Collapsed navbar. Needed for mobile phone and tablet users -->
-      <div class="collapse navbar-collapse" id="resp-Nav">
-        <ul class="navbar-nav">
-          <!-- Home - active one -->
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <!-- History -->
-          <li class="nav-item">
-            <a class="nav-link" href="history.html">History</a>
-          </li>
-          <!-- Visit -->
-          <li class="nav-item">
-            <a class="nav-link" href="visit.html">Visit</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- Main content section -->
-    <main class="content">
-      <section id="about">
-        <h2>About My Town</h2>
-        <!-- Text paragraphs with the most important information about my town. -->
-        <p>Varazdin is a wonderfully pretty baroque town located about 90km northeast of Zagreb and only about 45km from the Hungarian border. The town has a number of fine sights to explore, but it is also a delight to walk the streets, examining the impressive architecture, popping into a museum or two and enjoying the food and drink on offer. Varazdin is also home to the incredibly lively and fun Spancirfest each August – the largest street festival in Croatia. </p>
-        <p>With 46.946 inhabitants and the average annual temperature of 10°C, the city of Varaždin is one of the most attractive destinations to live in or to visit in Croatia. It is the tourist, cultural, economical, educational and sporting centre of North-western Croatia. </p>
-        <p>Varazdin – known as “Little Vienna” among Croatians – owes its Baroque bonanza to its position as Croatia’s capital from 1756 to 1776. In that year, unfortunately, a large part of the town was destroyed in a fire. (The capital reverted to Zagreb at this point.) </p>
-        <p>
-          <strong>In 2023, the city joined the UNESCO Creative Cities Network </strong> which promotes cities that celebrate culture and creativity as part of their strategic development. Varazdin has joined the network due to its focus on music.
-        </p>
-      </section>
-      <!-- Container with the image of one of the most visited attractions in my town. -->
-      <div class="container" id="cont_old">
-        <div class="row">
-          <!-- Using Bootstrap img-fluid class. This class makes images responsive, making them look good on any screen size -->
-          <img class="img-fluid" src="./img/Varazdin.jpg" alt="Old Town Fortress">
-        </div>
-      </div>
-    </main>
-    <!-- Container with the button-link to visit.html -->
-    <div class="container" id="info">
-      <h4>Visitor Information</h4>
-      <p>To find more information about Varazdin <br>
-        <!-- Button link to Visit page. In other words to visit.html -->
-        <a href="visit.html" class="but-li" type="submit">Click here</a>
-      </p>
+    <!-- Banner image: Logo of Varazdin, edited in Canva -->
+    <img src="./img/banner.jpg" alt="Logo of the Varazdin" class="custom_ban">
+    <!-- Button-links-->
+    <div class="cust-container" id="info">
+      <!-- Button link to Home page. -->
+      <a href="home.html" class="but-li cust-but-li">Home</a>
+      <!-- Button link to History page. -->
+      <a href="history.html" class="but-li cust-but-li">History</a>
+      <!-- Button link to Visit page. -->
+      <a href="visit.html" class="but-li cust-but-li">Visit</a>
     </div>
-    <!-- Footer containing information about year of creation and copyright-->
-    <footer class="bg-dark">
-      <div class="container">
-        <!-- Copyright information -->
-        <p id="p-foot">Copyright &copy; 2024 by Lana Novak. All rights reserved.</p>
-      </div>
-    </footer>
     <!-- Bootstrap JavaScript bundle for navigation bar/menu at the top. Used scripts from:https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
