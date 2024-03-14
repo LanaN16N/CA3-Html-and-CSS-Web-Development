@@ -13,54 +13,119 @@
     <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
-    <!-- Header section with a banner image -->
+    <!-- Header section -->
     <header>
-      <div class="header-content">
-        <!-- Banner image: Logo of Varazdin, edited in Canva -->
-        <div class="banner">
-          <img src="./img/banner.jpg" alt="Logo of the Varazdin" style="width:40%; height:auto; max-height:500px;">
+      <!-- Navigation bar, Bootstrap. Used this to learn how to do it: link: https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse -->
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <!-- Toggler button, extremely important for responsive design of navbar -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#resp-Nav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar links -->
+        <!-- Collapsed navbar. Needed for mobile phone and tablet users -->
+        <div class="collapse navbar-collapse" id="resp-Nav">
+          <ul class="navbar-nav">
+            <!-- Index -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Index</a>
+            </li>
+            <!-- Home -->
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <!-- History -->
+            <li class="nav-item">
+              <a class="nav-link" href="history.html">History</a>
+            </li>
+            <!-- Visit - active one -->
+            <li class="nav-item active">
+              <a class="nav-link" href="visit.html">Visit</a>
+            </li>
+          </ul>
         </div>
-      </div>
+      </nav>
     </header>
-    <!-- Navigation bar, Bootstrap. Used this to learn how to do it: link: https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse -->
-    <nav class="navbar navbar-expand-md navbar-dark">
-      <!-- Toggler button, extremely important for responsive design of navbar -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#resp-Nav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Navbar links -->
-      <!-- Collapsed navbar. Needed for mobile phone and tablet users -->
-      <div class="collapse navbar-collapse" id="resp-Nav">
-        <ul class="navbar-nav">
-          <!-- Home -->
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <!-- History -->
-          <li class="nav-item">
-            <a class="nav-link" href="history.html">History</a>
-          </li>
-          <!-- Visit - active one -->
-          <li class="nav-item active">
-            <a class="nav-link" href="visit.html">Visit</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-        <!-- Container with the button-link to external sources -->
+    <!-- Main content section -->
+    <main class="content">
+      <section id="about">
+        <div id="attractions">
+          <h3>THINGS TO SEE!</h3>
+          <div class="row">
+            <div class="col-md-7">
+              <h4>Old Town Fortress</h4>
+              <p>Situated in the northwestern section of Varazdin's central area, this magnificent fortress underwent construction, renovation, and expansions from the 13th to the 19th centuries. Currently, the castle hosts the Varazdin City Museum, established in 1925.</p>
+              <p>Varazdin’s main square, Trg Kralja Tomislava (King Tomislav Square), is a wide square on which a number of inviting outdoor cafes are arranged. You will also find the Town Hall here – its central spire is somewhat unusual! Built in 1523, it is one of the oldest town halls in Europe.</p>
+            </div>
+            <div class="col-md-5">
+              <img class="img-fluid img-v" src="./img/Varazdin.jpg" alt="Old Town Fortress">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-7">
+              <h4>Main Square "Korzo"</h4>
+              <p>Varazdin’s main square, Trg Kralja Tomislava (King Tomislav Square), is a wide square on which a number of inviting outdoor cafes are arranged. You will also find the Town Hall here – its central spire is somewhat unusual! Built in 1523, it is one of the oldest town halls in Europe.</p>
+            </div>
+            <div class="col-md-5">
+              <img class="img-fluid img-v" src="./img/main_square.jpg" alt="Main Square - 'Korzo'">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-7">
+              <h4>HNK Varazdin - National Theatre of Croatia</h4>
+              <p>A monumental building of the Croatian National Theatre was built in Historicist style at the southern entrance to the city in 1873. </p>
+              <p>The building was designed by the most famous Central European theatre designer, the Viennese architect Hermann Helmer, for whom this was the first theatre project. In many respects it could be argued that his later works reflect echoes of the Varaždin Theatre.</p>
+            </div>
+            <div class="col-md-5">
+              <img class="img-fluid img-v" src="./img/hnk.jpg" alt="HNK Varazdin - National Theatre of Croatia">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-7">
+              <h4>Drava</h4>
+              <p>Dravski park-forest is a forested area in the northern part of the city of Varaždin, bordered to the north by the Drava River. It was declared a park-forest in 2011, covering an area of 85.74 hectares. It is multiply protected, thus being a part of the Regional Park Mura-Drava, the Natura 2000 ecological network, as well as the future UNESCO MAB Biosphere Reserve Danube-Drava-Mura.</p>
+            </div>
+            <div class="col-md-5">
+              <img class="img-fluid img-v" src="./img/drava.jpg" alt="Drava">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-7">
+              <h4>Aquacity</h4>
+              <p> Three kilometers from the center of the Baroque city of Varaždin, there is Aquacity, popularly called "Varaždin Sea," with a landscaped environment, making it a true oasis for relaxation, walking, swimming, and recreation.</p>
+              <p> More than 5000 square meters of landscaped beach and green areas are largely covered by natural shade, and there is also a well-maintained children's playground. For lovers of sports and recreational activities, there are tennis courts, a small soccer field, mini-golf, and beach volleyball available.</p>
+            </div>
+            <div class="col-md-5">
+              <img class="img-fluid img-v" src="./img/aquacity.jpg" alt="Aquacity">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Container with the button-link to external sources -->
     <div class="container" id="info">
       <h4>Visitor Information</h4>
       <!-- External links -->
       <p>To find more information about accommodation in Varazdin <br>
-        <!-- Button link to Booking.com for Varazdin -->
-        <a href="https://www.booking.com/city/hr/varazdin.en-gb.html" class="button-link">Click here</a>
+        <!-- Button link - Booking.com for Varazdin -->
+        <a href="https://www.booking.com/city/hr/varazdin.en-gb.html" class="but-li">Click here</a>
       </p>
       <p>To find more information where to eat in Varazdin <br>
-        <!-- Button link to Booking.com for Varazdin -->
+        <!-- Button link - Tripadvisor link -->
         <a href="https://www.tripadvisor.co.uk/Restaurants-g303839-Varazdin_Varazdin_County_Central_Croatia.html" class="but-li">Click here</a>
       </p>
+      <p>To find more information where to have a fun in Varazdin <br>
+        <!-- Button link - Tripadvisor link -->
+        <a href="https://www.tripadvisor.co.uk/Attractions-g303839-Activities-c20-t99-Varazdin_Varazdin_County_Central_Croatia.html" class="but-li">Click here</a>
+      </p>
     </div>
-
+    </div>
+    <!-- Footer containing information about year of creation and copyright-->
+    <footer class="bg-dark">
+      <div class="container">
+        <!-- Copyright information -->
+        <p id="p-foot">Copyright &copy; 2024 by Lana Novak. All rights reserved.</p>
+      </div>
+    </footer>
     <!-- Bootstrap JavaScript bundle for navigation bar/menu at the top. Used scripts from:https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
