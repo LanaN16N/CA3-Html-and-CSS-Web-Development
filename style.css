@@ -35,18 +35,18 @@ img {
 
 /* Row - Visit page */
 .row {
-  padding-top: 2rem;  /* sets the top padding of the row class to 2 rem */
-  padding-bottom: 2rem;  /* sets the bottom padding of the row class to 2 rem */
+  padding-top: 2rem; /* sets the top padding of the row class to 2 rem */
+  padding-bottom: 2rem; /* sets the bottom padding of the row class to 2 rem */
 }
 
 /* Banner image - logo of Varazdin - index.html */
 .custom_ban {
   display: block; /* sets the display of .custom_ban class to block */
-  justify-content: center;  /* justify content of .custom_ban class to center */
-  margin-left: auto;  /* sets left margin of .custom_ban class to auto */
-  margin-right: auto;  /* sets right margin of .custom_ban class to auto */
+  justify-content: center; /* justify content of .custom_ban class to center */
+  margin-left: auto; /* sets left margin of .custom_ban class to auto */
+  margin-right: auto; /* sets right margin of .custom_ban class to auto */
   width: 60%; /* sets the width of .custom_ban class to 60% */
-  max-height: 50rem;  /* sets the max-height of .custom_ban class to 50rem */
+  max-height: 50rem; /* sets the max-height of .custom_ban class to 50rem */
 }
 
 /* Container with buttons - index.html */
@@ -82,14 +82,14 @@ img {
   padding-right: 2rem; /* sets the right padding of the navbar class to 2rem */
   background-color: #343434; /* sets the default background color of the navbar to the Jet Black - #343434 */
   color: #f8f8f8; /* sets the default text color of nav to #f8f8f8 */
-  top: 0;  /* sets the position of the navbar 0 from the top */
+  top: 0; /* sets the position of the navbar 0 from the top */
   left: 0; /* sets the position of the navbar 0 from the left */
   z-index: 1000; /* Ensures the navbar stays above other content, and that it is fixed there. */
 }
 
 /* Navbar links */
 .nav-link {
-  margin-left: 1rem;  /* sets the left margin of Navbar links to 1 rem, ensuring enough spaces between links */
+  margin-left: 1rem; /* sets the left margin of navbar links to 1 rem, ensuring enough spaces between links */
 }
 
 /* Content styling */
@@ -97,7 +97,7 @@ img {
   background-color: #fff; /*sets the background color of a content class to white(#fff) */
   padding: 3.5rem; /* sets paddings (top, bottom, left, right) of content class to 3.5rem */
   margin-bottom: 3rem; /* sets the bottom margin of the of a content class to 3rem */
-  margin-top: 3rem;  /* sets the top margin of the of a content class to 3rem */
+  margin-top: 3rem; /* sets the top margin of the of a content class to 3rem */
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.4); /* sets the shadow of a content class */
 }
 
@@ -124,7 +124,9 @@ img {
 .but-li:hover {
   color: white; /* sets the text color of button-link class on hover to white */
   background-color: #1e90ff; /* sets the background color of button-link class on hover to blue (#1e90ff) */
-  transform: scale(1.01); /* makes the buttons a little bigger on hover, showing to the user they are interactive (clickable) */
+  transform: scale(
+    1.01
+  ); /* makes the buttons a little bigger on hover, showing to the user they are interactive (clickable) */
   text-decoration: none; /* sets text decoration of the button-link class on hover to none */
 }
 
@@ -141,8 +143,8 @@ footer {
   margin-top: 5rem; /* sets a top margin of the footer 5rem */
   margin-bottom: 0; /* sets a bottom margin of the footer to 0 */
   width: 100%; /* sets the width of footer class to 100% */
-  right: 0;  /* sets the position of footer class 0 from the right */
-  left: 0;  /* sets the position of footer class 0 from the left */
+  right: 0; /* sets the position of footer class 0 from the right */
+  left: 0; /* sets the position of footer class 0 from the left */
 }
 
 /* #p-foot, footer p(paragraph) style */
@@ -170,17 +172,25 @@ footer {
 /* @media tag is used for adapting websites for tablet and mobile phone users. It is extremelly important part of responsive design */
 @media (max-width: 768px) {
   body {
-    padding: 0.6rem; /* sets paddings of body to 0.6rem */
-    padding-top: 1rem; /* sets a top padding of body to 1rem */
+    padding-bottom: 0.6rem; /* sets the bottom padding of the body to 0.6rem */
+    padding-left: 0.6rem; /* sets the left padding of the body to 0.6rem */
+    padding-right: 0.6rem; /* sets the right padding of the body to 0.6rem */
+    padding-top: 1rem; /* sets the top padding of the body to 1rem */
   }
 
   .content,
   #info {
-    padding: 1rem; /* sets paddings of header-content, .content, #info to 1rem */
+    padding: 1rem; /* sets paddings of .content, #info to 1rem */
+  }
+
+  .content {
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.3rem;
   }
 
   .open_street_container {
-    height: 500px; /* sets the height of open_street_container to 500px*/
+    height: 350px; /* sets the height of open_street_container to 350px*/
+    max-width: 80%; /* sets the maximum width of the open_street_container class to 80% */
   }
 
   .navbar {
@@ -188,13 +198,18 @@ footer {
   }
 
   .custom_ban {
-    display: block;  /* sets the display of .custom_ban class to block */
-    justify-content: center;  /* justify content of .custom_ban class to center */
-    margin-left: auto;  /* sets left margin of .custom_ban class to auto */
-    margin-right: auto;  /* sets right margin of .custom_ban class to auto */
-    width: 80%;  /* sets the width of .custom_ban class to 80% */
-    max-height: 35rem;  /* sets the max-height of .custom_ban class to 35rem */
+    display: block; /* sets the display of .custom_ban class to block */
+    justify-content: center; /* justify content of .custom_ban class to center */
+    margin-left: auto; /* sets left margin of .custom_ban class to auto */
+    margin-right: auto; /* sets right margin of .custom_ban class to auto */
+    width: 80%; /* sets the width of .custom_ban class to 80% */
+    max-height: 50rem; /* sets the max-height of .custom_ban class to 35rem */
   }
+
+  .footer {
+    padding-top: 0.6rem; /* sets the top padding of the footer to 0.6rem */
+  }
+
   .cust-but-li {
     margin: 0.3rem; /* sets the margin, space between elements to 0.3rem */
   }
