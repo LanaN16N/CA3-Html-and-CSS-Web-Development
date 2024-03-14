@@ -1,90 +1,84 @@
 <!DOCTYPE html>
 <!--sets language of the website to English -->
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <!-- Makes sure it looks good on phones and it has possibility of zooming -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Title of the webpage -->
-  <title>History</title>
-  <!-- Bootstrap CSS for styling, used this code: https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css from here: https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <!-- External CSS file for styling -->
-  <link rel="stylesheet" href="style.css" type="text/css">
-</head>
-
-<body>
-  <!-- Header section with a banner image -->
-  <header>
-    <div class="header-content">
-      <!-- Banner image: Logo of Varazdin, edited in Canva -->
-      <div class="banner">
-        <img src="./img/banner.jpg" alt="Logo of the Varazdin" style="width:40%; height:auto; max-height:500px;">
+  <head>
+    <meta charset="UTF-8">
+    <!-- Makes sure it looks good on phones and it has possibility of zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
+    <title>History</title>
+    <!-- Bootstrap CSS for styling, used this code: https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css from here: https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- External CSS file for styling -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <!-- Navigation bar, Bootstrap. Used this to learn how to do it: link: https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse -->
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <!-- Toggler button, extremely important for responsive design of navbar -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#resp-Nav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar links -->
+        <!-- Collapsed navbar. Needed for mobile phone and tablet users -->
+        <div class="collapse navbar-collapse" id="resp-Nav">
+          <ul class="navbar-nav">
+            <!-- Index -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Index</a>
+            </li>
+            <!-- Home -->
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <!-- History - active one -->
+            <li class="nav-item active">
+              <a class="nav-link" href="history.html">History</a>
+            </li>
+            <!-- Visit -->
+            <li class="nav-item">
+              <a class="nav-link" href="visit.html">Visit</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Main content section -->
+    <main class="content">
+      <section id="about">
+        <h2>History</h2>
+        <!-- Text paragraphs with the most important information about the history of my town. -->
+        <p>In the Vindija cave in Donja Voca near Varazdin, the best-preserved remains of Neanderthals in the world were found, dating back about 30,000 years. According to archaeological findings, the area of the city was inhabited already in Roman times, as evidenced by the names of two existing streets today - Via Militum and Via Petovia</p>
+        <p>The history of Varazdin is closely linked to the history of the medieval County of Varazdin. There are assumptions that a tribal county of Varazdin existed before the 12th century. From the surviving sources, it is clear that in the developed and late Middle Ages, the Counties of Varazdin, Zagorje, Krapina, and Hrascina existed, with the County of Varazdin eventually expanding over time. Around 1350, with the reorganization of counties, a large County of Varazdin was created, which included some neighboring counties among others. From the mid-14th century, the County of Varazdin was divided into smaller districts that mostly coincided with the old counties.</p>
+        <p>
+          <strong>King Bella III.</strong> mentions <strong>Garestin (old name for Varazdin) </strong> for the first time in <strong>1181</strong> in a legal document and in <strong>1209 the Hungarian king Andrew II. declares Varazdin a free royal borough.</strong>
+        </p>
+        <p>At the end of the 14th century, Varazdin fortress passed to the hands of the Counts of Celje. Over the following centuries Varazdin had several owners, the most influential being Beatrice Frankopan, wife of Margrave Georg of Brandenburg-Ansbach, who built the town hall; the last was Baron Ivan Ungnad, who reinforced the existing fortification. At the end of the 16th century Count Thomas Erdődy became its owner, assuming the hereditary position of Varazdin prefects, and the fortress remained in the ownership of the Erdődy family until 1925.</p>
+        <p>In 1756, the Ban Ferenc Nádasdy chose Varazdin as his official residence, and Varazdin became the capital of all of Croatia. It hosted the Croatian Sabor and the Royal Croatian Council founded by Empress Maria Theresa.</p>
+        <p> The periods of the Reformation and the counter-reformation had a great influence on Varazdin. With the arrival of the Jesuits, the school (gymnasium) and the Jesuit house were founded, and churches and other buildings were built in the Baroque style. In the 18th century Varazdin was the seat of many Croatian noblemen, and in 1756 it became the Croatian administrative centre. The fire of 1776 destroyed most of the town, resulting in the administrative institutions moving back to Zagreb. Varazdin was the seat of Varazdin County of the Kingdom of Croatia-Slavonia within the Austro-Hungarian monarchy, ruled by the Kingdom of Hungary after the compromise of 1867. The Hungarian stamp, issued in 1881 shows both names. By the 19th century Varazdin had been completely rebuilt and expanded, with flourishing crafts and trade, and later the manufacture of silk and bricks. The theatre, music school, and fire department were founded. </p>
+        <h2>20th century</h2>
+        <p> In the 20th century Varazdin developed into the industrial centre of Northwestern Croatia. The textile manufacturer Tivar was founded in 1918. On 12 July 1941, Varazdin was declared Judenfrei by the Ustase, becoming the first city in Croatia to earn this dubious distinction. In the Croatian War of Independence, 1991, Varazdin suffered directly for only for a few days, because the huge Yugoslav People's Army base quickly surrendered, resulting in a minimal number of casualties, and providing weapons (worth $600m) for the Croatian army.</p>
+      </section>
+    </main>
+    <!-- Container with the button-link to visit.html -->
+    <div class="container" id="info">
+      <h4>Visitor Information</h4>
+      <p>To find more information about Varazdin <br>
+        <!-- Button link to Visit page. In other words to visit.html -->
+        <a href="visit.html" class="but-li">Click here</a>
+    </div>
+    <!-- Footer containing information about year of creation and copyright-->
+    <footer class="bg-dark">
+      <div class="container">
+        <!-- Copyright information -->
+        <p id="p-foot">Copyright &copy; 2024 by Lana Novak. All rights reserved.</p>
       </div>
-    </div>
-  </header>
-  <!-- Navigation bar, Bootstrap. Used this to learn how to do it: link: https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse -->
-  <nav class="navbar navbar-expand-md navbar-dark">
-    <!-- Toggler button, extremely important for responsive design of navbar -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#resp-Nav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- Navbar links -->
-    <!-- Collapsed navbar. Needed for mobile phone and tablet users -->
-    <div class="collapse navbar-collapse" id="resp-Nav">
-      <ul class="navbar-nav">
-        <!-- Home -->
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <!-- History - active one -->
-        <li class="nav-item active">
-          <a class="nav-link" href="history.html">History</a>
-        </li>
-        <!-- Visit -->
-        <li class="nav-item">
-          <a class="nav-link" href="visit.html">Visit</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- Main content section -->
-  <main class="content">
-    <section id="about">
-      <h2>History</h2>
-      <!-- Text paragraphs with the most important information about the history of my town. -->
-      <p>In the Vindija cave in Donja Voca near Varazdin, the best-preserved remains of Neanderthals in the world were found, dating back about 30,000 years. According to archaeological findings, the area of the city was inhabited already in Roman times, as evidenced by the names of two existing streets today - Via Militum and Via Petovia</p>
-      <p>The history of Varazdin is closely linked to the history of the medieval County of Varazdin. There are assumptions that a tribal county of Varazdin existed before the 12th century. From the surviving sources, it is clear that in the developed and late Middle Ages, the Counties of Varazdin, Zagorje, Krapina, and Hrascina existed, with the County of Varazdin eventually expanding over time. Around 1350, with the reorganization of counties, a large County of Varazdin was created, which included some neighboring counties among others. From the mid-14th century, the County of Varazdin was divided into smaller districts that mostly coincided with the old counties.</p>
-      <p>
-        <strong>King Bella III.</strong> mentions <strong>Garestin (old name for Varazdin) </strong> for the first time in <strong>1181</strong> in a legal document and in <strong>1209 the Hungarian king Andrew II. declares Varazdin a free royal borough.</strong>
-      </p>
-      <p>At the end of the 14th century, Varazdin fortress passed to the hands of the Counts of Celje. Over the following centuries Varazdin had several owners, the most influential being Beatrice Frankopan, wife of Margrave Georg of Brandenburg-Ansbach, who built the town hall; the last was Baron Ivan Ungnad, who reinforced the existing fortification. At the end of the 16th century Count Thomas Erdődy became its owner, assuming the hereditary position of Varazdin prefects, and the fortress remained in the ownership of the Erdődy family until 1925.</p>
-      <p>In 1756, the Ban Ferenc Nádasdy chose Varazdin as his official residence, and Varazdin became the capital of all of Croatia. It hosted the Croatian Sabor and the Royal Croatian Council founded by Empress Maria Theresa.</p>
-      <p> The periods of the Reformation and the counter-reformation had a great influence on Varazdin. With the arrival of the Jesuits, the school (gymnasium) and the Jesuit house were founded, and churches and other buildings were built in the Baroque style. In the 18th century Varazdin was the seat of many Croatian noblemen, and in 1756 it became the Croatian administrative centre. The fire of 1776 destroyed most of the town, resulting in the administrative institutions moving back to Zagreb. Varazdin was the seat of Varazdin County of the Kingdom of Croatia-Slavonia within the Austro-Hungarian monarchy, ruled by the Kingdom of Hungary after the compromise of 1867. The Hungarian stamp, issued in 1881 shows both names. By the 19th century Varazdin had been completely rebuilt and expanded, with flourishing crafts and trade, and later the manufacture of silk and bricks. The theatre, music school, and fire department were founded. </p>
-      <h2>20th century</h2>
-      <p> In the 20th century Varazdin developed into the industrial centre of Northwestern Croatia. The textile manufacturer Tivar was founded in 1918. On 12 July 1941, Varazdin was declared Judenfrei by the Ustase, becoming the first city in Croatia to earn this dubious distinction. In the Croatian War of Independence, 1991, Varazdin suffered directly for only for a few days, because the huge Yugoslav People's Army base quickly surrendered, resulting in a minimal number of casualties, and providing weapons (worth $600m) for the Croatian army.</p>
-    </section>
-  </main>
-  <!-- Container with the button-link to visit.html -->
-  <div class="container" id="info">
-    <h4>Visitor Information</h4>
-    <p>To find more information about Varazdin <br>
-      <!-- Button link to Visit page. In other words to visit.html -->
-      <a href="visit.html" class="but-li" type="submit">Click here</a>
-    </p>
-  </div>
-  <!-- Footer containing information about year of creation and copyright-->
-  <footer class="bg-dark">
-    <div class="container">
-      <!-- Copyright information -->
-      <p id="p-foot">Copyright &copy; 2024 by Lana Novak. All rights reserved.</p>
-    </div>
-  </footer>
-  <!-- Bootstrap JavaScript bundle for navigation bar/menu at the top. Used scripts from:https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse-->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+    </footer>
+    <!-- Bootstrap JavaScript bundle for navigation bar/menu at the top. Used scripts from:https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
