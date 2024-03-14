@@ -60,6 +60,7 @@ img {
 /* Customized buttons - index.html */
 .cust-but-li {
   color: #ffffff; /* sets the text color of custom buttons on index.html page to white (#ffffff) */
+  margin: 1.3rem; /* sets the margin, space between elements to 1.3rem */
 }
 
 /* Header content*/
@@ -193,5 +194,8 @@ footer {
     margin-right: auto;  /* sets right margin of .custom_ban class to auto */
     width: 80%;  /* sets the width of .custom_ban class to 80% */
     max-height: 35rem;  /* sets the max-height of .custom_ban class to 35rem */
+  }
+  .cust-but-li {
+    margin: 0.3rem; /* sets the margin, space between elements to 0.3rem */
   }
 }
