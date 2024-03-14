@@ -16,22 +16,27 @@ body {
   padding-left: 2rem; /* sets the left padding to 2rem. 2rem = 32px */
 }
 
+/* Images */
+img {
+  padding-bottom: 1.3rem; /* sets the bottom padding of images to 1.3rem. 1.3rem = 20.8px (as 1.3 * 16 = 20.8px) */
+  max-width: 100%; /* sets the max-width of the images to 100%. In this way they can't be bigger than container width and they are responsive. So, they will look good regardless of the screen size.*/
+}
+
 /* Header content*/
 .header-content {
   background-color: #ffffff; /* sets the default background color of the header to the white */
   text-align: center; /* sets the text-align of the header content to the center */
-}
-
-/* Images */
-img {
-  max-width: 100%; /* sets the max-width of the images to 100%. In this way they can't be bigger than container width and they are responsive. So, they will look good regardless of the screen size.*/
+  padding: 0.2rem 0.9rem; /* sets paddings of the header content to 0.2rem on the top and bottom and 0.9rem on the right and left */
+  margin-bottom: 2rem; /* sets the bottom margin of the header content to 2rem */
+  border-radius: 3px; /* sets a border-radious of a header-content class to 3px, softening the edges */
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3); /* sets the shadow of the header */
 }
 
 /* Navbar */
 .navbar {
-  position: fixed;  /* sets the position of navbar to fixed */
-  font-size: 1.7rem; /* sets the text-size of navbar to 1.7rem */
-  font-weight: 200;  /* sets the font-weight to 200 */
+  position: static; /* sets the position of navbar to static */
+  font-size: 1.4rem; /* sets the text-size of navbar to 1.4rem */
+  font-weight: 300; /* sets the font-weight to 300 */
   width: 100%; /*sets the navbar width to cover the full width of the viewport */
   background-color: #404040; /* sets the default background color of the navbar to the dark-grey (#404040) */
   color: #f8f8f8; /* sets the default text color of nav to #f8f8f8 */
@@ -47,14 +52,91 @@ img {
 /* Content styling */
 .content {
   background-color: #fff; /*sets the background color of a content class to white(#FFF) */
-  padding: 2.5rem; /* sets paddings (top, bottom, left, right) of content class to 2.5rem */
+  padding: 3.5rem; /* sets paddings (top, bottom, left, right) of content class to 3.5rem (56px) */
   margin-bottom: 3rem; /* sets the bottom margin of the of a content class to 3rem (48px) */
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.4); /* sets the shadow of a content class */
+}
+
+/* Margins syling */
+#about h2,
+#about p,
+#info h4 {
+  margin-bottom: 1.25rem; /* sets the bottom margin of the of #about h2, #about p and #info h4 to 1.25rem(20px) */
+}
+
+/* Buttons */
+/* button-link class */
+.but-li {
+  text-decoration: none; /* sets the text decoration of button-link class to none */
+  display: inline-block; /* sets the display to inline-block */
+  background-color: #0047ab; /* sets the background color of button-link class to dark (colbat) blue (#0047AB) */
+  color: #ffffff; /* sets the text color of button-link class to white (#ffffff) */
+  padding: 0.63rem 1.56rem; /* sets the top and bottom padding of button-link class to 0.63rem and left and right padding to 1.56rem */
+  margin-top: 1.3rem; /* sets the top margin of button-link class to 1.3rem */
+  border-radius: 7px; /* sets a border-radious of a button-link class to 7px, rounding the corners to look better */
+}
+
+/* button-link class on hover (when mouse is over) */
+.but-li:hover {
+  color: white; /* sets the text color of button-link class on hover to white */
+  background-color: #1e90ff; /* sets the background color of button-link class on hover to blue (#1E90FF) */
+  transform: scale(
+    1.01
+  ); /* makes the button a little bigger on hover, showing to the user it is interactive (clickable) */
+  text-decoration: none; /* sets text decoration of the button-link class on hover to none */
 }
 
 /* Footer */
 footer {
   background-color: #484848; /* sets the background color of footer to dark-grey (#484848) */
+  opacity: 70%; /* sets the opacity of footer to 70% */
   color: #ffffff; /* sets the text color to #FFFFFF */
   text-align: center; /* sets the text-align of the footer to the center */
+  padding: 1.1rem; /* sets paddings (top, bottom, left, right) to 1.1rem */
+  margin-top: 2.3rem; /* sets a top margin of the footer to 2.3rem */
+  margin-bottom: 0; /* sets a bottom margin of the footer to 0 */
+}
+
+/* #p-foot, footer p(paragraph) style */
+#p-foot {
+  opacity: 50%; /* sets the opacity of the footer text to 50% */
+}
+
+/* map (static) */
+.open_street_container {
+  margin-top: 3rem; /* sets a top margin of the open_street_container class to 3rem */
+}
+
+.resp_open_map {
+  max-width: 100%; /* sets the max-width of .resp_open_map class image to 100%. This is extremely important for responsive design (for mobile and tablet users) */
+  height: auto; /* sets the height of .resp_open_map class image to auto */
+}
+
+/* about */
+#about {
+  padding-left: 2.5rem; /* sets a left padding of #about id section to 2.5 rem */
+  padding-bottom: 0; /* sets a bottom padding of #about id section to 0 */
+}
+
+/* Responsive Design, 768 for tablets */
+/* @media tag is used for adapting websites for tablet and mobile phone users. It is extremelly important part of responsive design */
+@media (max-width: 768px) {
+  body {
+    padding: 0.6rem; /* sets paddings of body to 0.6rem */
+    padding-top: 1rem; /* sets a top padding of body to 1rem */
+  }
+
+  .header-content,
+  .content,
+  #info {
+    padding: 1rem; /* sets paddings of header-content, .content, #info to 1rem */
+  }
+
+  open_street_container {
+    height: 350px; /* sets the height of open_street_container to 350px*/
+  }
+
+  .navbar {
+    width: 100%; /*sets the width of the navbar(for smaller devices) to 100% */
+  }
 }
