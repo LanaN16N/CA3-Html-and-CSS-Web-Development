@@ -16,10 +16,10 @@ body {
   padding-left: 2rem; /* sets the left padding to 2rem */
 }
 
-/* Sets custom backgroung color of index.html */
+/* Custom body class to set custom background of index.html */
 .cus-background-index {
-  background-color: #fff;
-  background-size: cover;
+  background-color: #fff; /* sets the background color of .cus-background-index (body of the index.html) to white(#fff) */
+  background-size: cover;  /* sets the background size to cover */
 }
 
 /* Paragraph text */
@@ -82,12 +82,11 @@ img {
 /* Navbar */
 .navbar {
   position: fixed; /* sets the position of navbar to fixed */
-  font-size: 1.4rem; /* sets the text-size of navbar to 1.4rem */
-  font-weight: 300; /* sets the font-weight to 300 */
+  font-size: 1.5rem; /* sets the text-size of navbar to 1.5rem */
+  font-weight: 500; /* sets the font-weight to 500 */
   width: 100%; /* sets the navbar width to cover the full width of the viewport */
-  padding-right: 2rem; /* sets the right padding of the navbar class to 2rem */
   background-color: #343434; /* sets the default background color of the navbar to the Jet Black - #343434 */
-  color: #f8f8f8; /* sets the default text color of nav to #f8f8f8 */
+  color: #fbf9f9; /* sets the default text color of nav to #fbf9f9 */
   top: 0; /* sets the position of the navbar 0 from the top */
   left: 0; /* sets the position of the navbar 0 from the left */
   z-index: 1000; /* Ensures the navbar stays above other content, and that it is fixed there. */
