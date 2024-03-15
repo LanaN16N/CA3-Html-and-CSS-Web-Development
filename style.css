@@ -109,25 +109,23 @@ img {
 }
 
 /* Buttons */
-/* button-link class */
+/* but-li class */
 .but-li {
-  text-decoration: none; /* sets the text decoration of button-link class to none */
+  text-decoration: none; /* sets the text decoration of but-li class to none */
   display: inline-block; /* sets the display to inline-block */
-  background-color: #0047ab; /* sets the background color of button-link class to dark (colbat) blue (#0047ab) */
-  color: #ffffff; /* sets the text color of button-link class to white (#ffffff) */
-  padding: 0.63rem 1.56rem; /* sets the top and bottom padding of button-link class to 0.63rem and left and right padding to 1.56rem */
-  margin-top: 1.3rem; /* sets the top margin of button-link class to 1.3rem */
-  border-radius: 7px; /* sets a border-radious of a button-link class to 7px, rounding the corners to look better */
+  background-color: #0047ab; /* sets the background color of but-li class to dark (colbat) blue (#0047ab) */
+  color: #ffffff; /* sets the text color of but-li class to white (#ffffff) */
+  padding: 0.63rem 1.56rem; /* sets the top and bottom padding of but-li class to 0.63rem and left and right padding to 1.56rem */
+  margin-top: 1.3rem; /* sets the top margin of but-li class to 1.3rem */
+  border-radius: 7px; /* sets a border-radious of a but-li class to 7px, rounding the corners to look better */
 }
 
-/* button-link class on hover (when mouse is over) */
+/* but-li class on hover (when mouse is over) */
 .but-li:hover {
-  color: white; /* sets the text color of button-link class on hover to white */
-  background-color: #1e90ff; /* sets the background color of button-link class on hover to blue (#1e90ff) */
-  transform: scale(
-    1.01
-  ); /* makes the buttons a little bigger on hover, showing to the user they are interactive (clickable) */
-  text-decoration: none; /* sets text decoration of the button-link class on hover to none */
+  color: white; /* sets the text color of but-li class on hover to white */
+  background-color: #1e90ff; /* sets the background color of but-li class on hover to blue (#1e90ff) */
+  transform: scale(1.01); /* makes the buttons a little bigger on hover, showing to the user they are interactive (clickable) */
+  text-decoration: none; /* sets text decoration of the but-li class on hover to none */
 }
 
 /* Footer */
