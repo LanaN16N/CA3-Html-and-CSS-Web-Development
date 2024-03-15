@@ -16,6 +16,12 @@ body {
   padding-left: 2rem; /* sets the left padding to 2rem */
 }
 
+/* Sets custom backgroung color of index.html */
+.cus-background-index {
+  background-color: #fff;
+  background-size: cover;
+}
+
 /* Paragraph text */
 p {
   padding-right: 1rem; /* sets the right padding of p(paragraoh text) to 1rem */
@@ -45,7 +51,7 @@ img {
   justify-content: center; /* justify content of .custom_ban class to center */
   margin-left: auto; /* sets left margin of .custom_ban class to auto */
   margin-right: auto; /* sets right margin of .custom_ban class to auto */
-  width: 60%; /* sets the width of .custom_ban class to 60% */
+  width: 55%; /* sets the width of .custom_ban class to 55% */
   max-height: 40rem; /* sets the max-height of .custom_ban class to 40rem */
 }
 
@@ -140,7 +146,7 @@ footer {
   padding-right: 1.1rem; /* sets right padding to 1.1rem */
   padding-bottom: 1.1rem; /* sets bottom padding to 1.1rem */
   padding-top: 1.1rem; /* sets top padding to 1.1rem */
-  margin-top: 5rem; /* sets a top margin of the footer 5rem */
+  margin-top: 3.5rem; /* sets a top margin of the footer 3.5rem */
   margin-bottom: 0; /* sets a bottom margin of the footer to 0 */
   width: 100%; /* sets the width of footer to 100% */
   right: 0; /* sets the position of footer 0 from the right */
@@ -212,6 +218,8 @@ footer {
     justify-content: center; /* justify content of .custom_ban class to center */
     margin-left: auto; /* sets left margin of .custom_ban class to auto */
     margin-right: auto; /* sets right margin of .custom_ban class to auto */
+    width: 90%; /* sets the width of .custom_ban class to 90% */
+    max-height: 70%; /* sets the max-height of .custom_ban class to 70% */
   }
 
   /* Footer */
