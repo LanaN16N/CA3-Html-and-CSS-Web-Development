@@ -95,8 +95,11 @@ img {
 
 /* Content */
 .content {
-  background-color: #fff; /*sets the background color of a content class to white(#fff) */
-  padding: 3.5rem; /* sets paddings (top, bottom, left, right) of content class to 3.5rem */
+  background-color: #fff; /*sets the background color of the content class to white(#fff) */
+  padding-top: 7.5rem; /* sets top padding of the content class to 7.5 rem */
+  padding-left: 5.5rem; /* sets left padding of the content class to 5.5 rem */
+  padding-right: 5.5rem; /* sets right padding of the content class to 5.5 rem */
+  padding-bottom: 5.5rem; /* sets bottom padding of the content class to 5.5 rem */
   margin-bottom: 3rem; /* sets the bottom margin of the of a content class to 3rem */
   margin-top: 3rem; /* sets the top margin of the of a content class to 3rem */
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.4); /* sets the shadow of a content class */
@@ -186,10 +189,10 @@ footer {
 
   /* Content */
   .content {
-    padding-left: 1rem; /* sets left padding of the content class to 1rem */
-    padding-right: 1rem; /* sets right padding of the content class to 1rem */
-    padding-top: 1rem; /* sets top padding of the content class to 1rem */
-    padding-bottom: 0.3rem; /* sets bottom padding of the content class to 0.3rem */
+    padding-left: 1.6rem; /* sets left padding of the content class to 1.6rem */
+    padding-right: 1.6rem; /* sets right padding of the content class to 1.6rem */
+    padding-top: 2rem; /* sets top padding of the content class to 2rem */
+    padding-bottom: 1.6rem; /* sets bottom padding of the content class to 1.6rem */
     margin-bottom: 0.3rem; /* sets bottom margin of the content class to 0.3rem */
     margin-top: 3rem; /* sets top margin of the content class to 0.3rem */
   }
