@@ -47,8 +47,8 @@ img {
   justify-content: center; /* justify content of .custom_ban class to center */
   margin-left: auto; /* sets left margin of .custom_ban class to auto */
   margin-right: auto; /* sets right margin of .custom_ban class to auto */
-  width: 55%; /* sets the width of .custom_ban class to 55% */
-  max-height: 90vh; /* sets the max-height of .custom_ban class to 90vh */
+  width: auto; /* sets the width of .custom_ban class to auto */
+  max-height: 100vh; /* sets the max-height of .custom_ban class to 100vh */
 }
 
 /* Container with buttons - index.html */
@@ -187,16 +187,15 @@ footer {
     width: 100%; /*sets the width of the navbar(for smaller devices) to 100% */
   }
 
-  /* Banner image - logo of Varazdin - index.html */
+    /* Banner image - logo of Varazdin - index.html */
   .custom_ban {
     display: block; /* sets the display of .custom_ban class to block */
     justify-content: center; /* justify content of .custom_ban class to center */
     margin-left: auto; /* sets left margin of .custom_ban class to auto */
     margin-right: auto; /* sets right margin of .custom_ban class to auto */
-    width: 90%; /* sets the width of .custom_ban class to 90% */
     max-height: 70%; /* sets the max-height of .custom_ban class to 70% */
     width: auto; /* adjust width to maintain the aspect ratio */
-    height: 80vh; /* set the height to 80% of the viewport height */
+    height: 75vh; /* set the height to 75% of the viewport height */
     max-width: 100%; /* sets the max-width to 100%, ensuring the image is not wider than the screen */
   }
 
