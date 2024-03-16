@@ -179,14 +179,6 @@ footer {
 /* Responsive Design, 768 for tablets */
 /* @media tag is used for adapting websites for tablet and mobile phone users. It is extremelly important part of responsive design */
 @media (max-width: 768px) {
-  /* Body */
-  body {
-    padding-bottom: 0.6rem; /* sets the bottom padding of the body to 0.6rem */
-    padding-left: 0.6rem; /* sets the left padding of the body to 0.6rem */
-    padding-right: 0.6rem; /* sets the right padding of the body to 0.6rem */
-    padding-top: 1rem; /* sets the top padding of the body to 1rem */
-  }
-
   /* Info - Container with the button-links */
   #info {
     padding: 1rem; /* sets paddings of #info to 1rem */
