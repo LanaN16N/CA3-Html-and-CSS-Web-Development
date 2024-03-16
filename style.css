@@ -29,12 +29,6 @@ img {
   max-width: 100%; /* sets the max-width of the images to 100%. In this way they can't be bigger than container width and they are responsive. So, they will look good regardless of the screen size.*/
 }
 
-/* Images - Visit page */
-.img-v {
-  max-height: 31.5rem; /* sets the maximum height of the .img-v class to 31.5 rem  */
-  max-width: 90%; /* sets the maximum width of the .img-v class to 90% */
-}
-
 /* Row - Visit page */
 .row {
   padding-top: 2rem; /* sets the top padding of the row class to 2 rem */
