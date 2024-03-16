@@ -137,18 +137,12 @@ img {
 /* Footer */
 footer {
   background-color: #484848; /* sets the background color of footer to dark-grey (#484848) */
-  opacity: 50%; /* sets the opacity of footer to 50% */
+  opacity: 30%; /* sets the opacity of footer to 30% */
   color: #ffffff; /* sets the text color to #ffffff, white */
   text-align: center; /* sets the text-align of the footer to the center */
-  padding-left: 1.1rem; /* sets left padding to 1.1rem */
-  padding-right: 1.1rem; /* sets right padding to 1.1rem */
-  padding-bottom: 1.1rem; /* sets bottom padding to 1.1rem */
-  padding-top: 1.1rem; /* sets top padding to 1.1rem */
   margin-top: 3.5rem; /* sets a top margin of the footer 3.5rem */
   margin-bottom: 0; /* sets a bottom margin of the footer to 0 */
   width: 100%; /* sets the width of footer to 100% */
-  right: 0; /* sets the position of footer 0 from the right */
-  left: 0; /* sets the position of footer 0 from the left */
 }
 
 /* #p-foot - footer p(paragraph) style */
@@ -214,7 +208,7 @@ footer {
 
   /* Footer */
   footer {
-    padding-top: 0.6rem; /* sets the top padding of the footer to 0.6rem */
+    padding-top: 2rem; /* sets the top padding of the footer to 2rem */
   }
 
   /* Customized buttons - index.html */
