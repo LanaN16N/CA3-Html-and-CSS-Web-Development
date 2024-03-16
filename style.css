@@ -126,8 +126,8 @@ img {
 
 /* Footer */
 footer {
-  background-color: #484848; /* sets the background color of footer to dark-grey (#484848) */
-  opacity: 80%; /* sets the opacity of footer to 80% */
+  background-color: #343434; /* sets the background color of footer to Jet Black - #343434 */
+  opacity: 70%; /* sets the opacity of footer to 70% */
   color: #ffffff; /* sets the text color to #ffffff, white */
   text-align: center; /* sets the text-align of the footer to the center */
   margin-top: 8rem; /* sets a top margin of the footer 8rem */
