@@ -47,6 +47,7 @@ img {
   justify-content: center; /* justify content of .custom_ban class to center */
   margin-left: auto; /* sets left margin of .custom_ban class to auto */
   margin-right: auto; /* sets right margin of .custom_ban class to auto */
+  margin-top: 2rem; /* sets top margin to 2rem */
   width: auto; /* sets the width of .custom_ban class to auto */
   max-height: 100vh; /* sets the max-height of .custom_ban class to 100vh */
 }
