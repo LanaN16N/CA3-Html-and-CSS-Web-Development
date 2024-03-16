@@ -8,11 +8,11 @@
 /* Body */
 body {
   font-family: Arial, Helvetica, sans-serif; /* sets the default font for the body of the website to Arial. If Arial is not available, it sets to Helvetica. If Helvetica is not available, it sets to sans-serif */
-  color: #383838; /* sets text color to #383838 */
+  color: #383838; /* sets text color to #383838 - very dark grey */
   background-color: #f8f8f8; /* sets the background color of the body of the website to a smoke white (#F8F8F8) */
 }
 
-/* Custom body class to set custom background of index.html */
+/* Custom body class that sets customized background of index.html */
 .cus-background-index {
   background-color: #fff; /* sets the background color of .cus-background-index (body of the index.html) to white(#fff) */
   background-size: cover;  /* sets the background size to cover */
@@ -63,16 +63,6 @@ img {
 .cust-but-li {
   color: #ffffff; /* sets the text color of custom buttons on index.html page to white (#ffffff) */
   margin: 1.3rem; /* sets the margin, space between buttons(index.html site) to 1.3rem */
-}
-
-/* Header content */
-.header-content {
-  background-color: #ffffff; /* sets the default background color of the header to the white */
-  text-align: center; /* sets the text-align of the header content class to the center */
-  padding: 0.2rem 0.9rem; /* sets paddings of the header content to 0.2rem on the top and bottom and 0.9rem on the right and left */
-  margin-bottom: 2rem; /* sets the bottom margin of the header content to 2rem */
-  border-radius: 3px; /* sets a border-radious of a header-content class to 3px, softening the edges */
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3); /* sets the shadow of the header */
 }
 
 /* Navbar */
