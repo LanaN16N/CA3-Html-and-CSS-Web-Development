@@ -53,7 +53,7 @@ Also, sometimes, my git pushes did not transfer on time, resulting in the need t
 
 At first, I made my index page as my home page, thinking they were the same pages. 
 Fortunately, our Lecturer provided us with clear instructions for creating our index.html, which I found to be extremely helpful.
-But, unfortunately most of my Git commits for the index page are actually commits for the home page. 
+But, because of that most of my Git commits for the index page are actually commits for the home page. 
 Then, I created a home page and put inside the code that was initially for index.html, with some additional changes.
     
 
