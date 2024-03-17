@@ -16,7 +16,7 @@ home.html - general information about the town.
 history.html - information about the town's past   
 visit.html - details on places to visit and essential experiences for tourists, plus buttons with external links to other information, such as where to eat, sleep, and have fun. 
 
-Each page, except index.html, has <header>, <nav>, <main>, <section>, and <footer> to clearly define each part of the site. 
+Each page, except index.html, has the header, nav, main, section, and footer to clearly define each part of the site. 
 
 I put my Navigation bar in the header. The Navigation bar is fixed, and 0 from the top to ensure it is positioned at the top and that it stays then when scrolling.  
 I chose a simple navigation design, using a dark menu bar and light-grey navigation that is universally acceptable to most people. The active link has the pure white text colour.  
